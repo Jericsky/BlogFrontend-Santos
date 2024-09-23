@@ -1,0 +1,37 @@
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff; /* White background to match forms */
+  padding: 15px 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #5a67d8; /* Primary color for branding */
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-link {
+  color: #333; /* Dark text for links */
+  margin: 0 15px;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: color 0.3s, transform 0.3s; /* Smooth transition for hover */
+}
+
+.navbar-link:hover {
+  color: #5a67d8; /* Change color on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.navbar-link.active {
+  font-weight: bold; /* Active link style */
+  border-bottom: 2px solid #5a67d8; /* Bottom border for active link */
+}

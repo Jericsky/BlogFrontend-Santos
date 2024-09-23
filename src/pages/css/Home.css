@@ -1,0 +1,30 @@
+#home {
+    background-color: #ffffff; /* Main background color */
+    padding: 50px 20px; /* Padding adjustments */
+    color: white; /* Text color for better contrast */
+    position: relative; /* Position for child elements */
+  }
+  
+  .header-image {
+    margin-top: 20px; /* Space between the button and image */
+    width: 100%; /* Make it responsive */
+    max-width: 600px; /* Limit the maximum width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Card Styles */
+  .card {
+    border: none; /* No border for cards */
+    border-radius: 10px; /* Rounded corners for cards */
+  }
+  
+  .card-title {
+    font-weight: bold; /* Bold card titles */
+  }
+  
+  .card-text {
+    color: #555; /* Softer text color for descriptions */
+  }
+  

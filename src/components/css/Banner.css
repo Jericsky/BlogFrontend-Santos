@@ -1,0 +1,23 @@
+.start-blogging-btn {
+    padding: 12px 24px; /* Adjusted padding */
+    background-color: #5a67d8 ; /* Primary button color */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 18px; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    text-decoration: none;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .start-blogging-btn:hover {
+    background-color: #434190; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+  }
+  
+  .start-blogging-btn:active {
+    transform: translateY(0); /* Reset position on click */
+  }
+  

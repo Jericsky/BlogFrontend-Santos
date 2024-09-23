@@ -1,0 +1,50 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+  }
+  
+  .unknown-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f4f9;
+  }
+  
+  .unknown-title {
+    font-size: 6rem; /* Large title */
+    font-weight: bold;
+    margin: 0;
+    color: #5a67d8; /* Consistent color with the button */
+  }
+  
+  .unknown-message {
+    font-size: 2rem; /* Subheading size */
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .unknown-description {
+    font-size: 1.2rem; /* Description size */
+    margin: 20px 0;
+    text-align: center;
+    color: #555; /* Slightly lighter text */
+  }
+  
+  .unknown-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #5a67d8; /* Button color */
+    padding: 12px 20px; /* Padding for button */
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .unknown-link:hover {
+    background-color: #434190; /* Button hover color */
+  }
+  
