@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import LoadingIndicator from '../components/LoadingIndicator';
-import './css/Blogs.css'; // Import any necessary CSS
+import './css/Blogs.css'; 
 
 export default function Blogs() {
   const [posts, setPosts] = useState([]);
